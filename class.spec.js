@@ -5,7 +5,7 @@ test("assertion",async({page})=>{
     await expect(page).toHaveURL("https://testautomationpractice.blogspot.com/")
     await expect (page.locator("//input[@id='name']")).toBeEditable()
 })
-
+//check
 test("radiobutton",async({page})=>{
     await page.goto("https://testautomationpractice.blogspot.com/")
     await page.locator("//input[@id='male']").check()
